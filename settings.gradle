@@ -1,0 +1,7 @@
+include ':api'
+include ':util'
+include ':microservices:users'
+include ':microservices:devices'
+include ':microservices:communications'
+include ':spring-cloud:gateway'
+include ':spring-cloud:authorization-server'
